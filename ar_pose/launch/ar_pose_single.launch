@@ -7,7 +7,7 @@
   <node ns="camera" pkg="image_proc" type="image_proc" name="image_proc"/>
 
 <!-- This the new thing, I will add
-	This will make this ar_pose work with usb_camera
+	This will make this ar_pose work with usb_cam
 -->
 
   <node name="camera" pkg="usb_cam" type="usb_cam_node" output="screen" >
