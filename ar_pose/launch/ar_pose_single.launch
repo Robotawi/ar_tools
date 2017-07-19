@@ -21,9 +21,8 @@
 
   </node>
 <!--
-may use
-  <node ns="camera" pkg="image_proc" type="image_proc" name="image_proc"/>
-
+ This is for the uvc_camera package, the most important thing is to public the frame:
+here the param name is frame. In the usb_cam package the frame name is camera_frame_id
 
   <node ns="camera" pkg="uvc_camera" type="camera_node" name="uvc_camera"
     output="screen">
